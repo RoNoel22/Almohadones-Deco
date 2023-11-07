@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Montserrat&family=Overpass:ital,wght@1,200&family=Roboto+Slab&display=swap');
+
+body{
+    background-image: url(/img/almohadones-gif2.webp);
+    background-repeat: repeat;
+    background-size: 60%;
+}
+ 
+.cont_directo{
+    padding-top: 10px;
+    padding-bottom: 5px;
+   
+}
+
+.span_header{
+    padding-left: 55%;
+    
+}
+
+ h1, h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ 
+
+.nav{ /*Barra de navegacion */
+    padding: 20px ;
+    background-color: pink;
+    background-size: cover;
+    font-size: 20px;
+    padding-top: 1%;
+    font-style: normal;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a:hover{ /*Animacion con hover*/
+    color: black;
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.formulario{	
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+}
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ab4493; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+      background-color: hwb(336 94% 4%); 
+      width: 405px; 
+      height: 150px; 
+      border-radius: 5px;  
+      border-style: solid; 
+      border-width: 1px; 
+      border-color: #d58ac3; 
+      margin-top: 10px;  
+      padding-left: 10px;
+      margin-bottom: 20px; 
+      padding-top: 15px; 
+  }
+
+  button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+    cursor: pointer;
+    background-color: lightcoral;
+}
+
+h1{
+	font-size: 39px;  
+	text-align: center; 
+	padding-bottom: 20px; 
+	color: #ab4493;
+}
+
+
+h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+}
+
+
+p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+}
+
+
+
+footer{
+    text-align: center;
+    color: beige;
+    padding-top: 15px;
+    background-color: lightcoral;
+    padding: 10px;
+}
