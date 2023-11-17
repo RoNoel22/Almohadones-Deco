@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Montserrat&family=Overpass:ital,wght@1,200&family=Roboto+Slab&display=swap');
 
-body{
+body{ /* estilo del body*/
     background-image: url(/img/almohadones-gif2.webp);
     background-repeat: repeat;
     background-size: 60%;
@@ -12,17 +12,26 @@ body{
    
 }
 
-.span_header{
+.span_header{ /*span del encabezado header*/
     padding-left: 55%;
     
 }
 
- h1, h2{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
- }
+h1{ /*estilo a titulo h1*/
+	font-size: 39px;  
+	padding-bottom: 20px; 
+	color: #ab4493;
+}
 
- 
+p{ /*estilo de parrafo*/
+	font-size: 14px; 
+	color: #0e0e0e; 
+}
+
+h1, h2{ /*estilo aplicado a h1 y h2*/
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
 
 .nav{ /*Barra de navegacion */
     padding: 20px ;
@@ -36,7 +45,7 @@ body{
     
 }
 
-nav a{
+nav a{ /*estilo de enlaces navegacion*/
     text-decoration: none;
     color: lightcoral;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -46,14 +55,14 @@ nav a:hover{ /*Animacion con hover*/
     color: black;
 }
 
-.menu {
+.menu { /*estilo del menu*/
     text-align: center;
     display: flex;
     justify-content:space-evenly;
     
 }
 
-.formulario{	
+.formulario{ /*estilo de seccion formulario*/	
     width: 460px; 
     height: auto;
     margin: 80px auto;
@@ -64,7 +73,7 @@ nav a:hover{ /*Animacion con hover*/
     padding-left: 30px; 
 }
 
-input{
+input{ /*estilo de inputs del formulario*/
 	background-color: #fbfbfb; 
 	width: 408px; 
 	height: 40px; 
@@ -77,7 +86,7 @@ input{
     margin-bottom: 20px; 
 }
 
-textarea{
+textarea{ /*estilo del area de texto del formulario*/
       background-color: hwb(336 94% 4%); 
       width: 405px; 
       height: 150px; 
@@ -91,7 +100,7 @@ textarea{
       padding-top: 15px; 
   }
 
-  button{
+  button{ /*estilo del boton submit*/
 	height: 45px; 
 	padding-left: 5px;
 	padding-right: 5px; 	
@@ -105,29 +114,14 @@ textarea{
     background-color: lightcoral;
 }
 
-h1{
-	font-size: 39px;  
-	text-align: center; 
-	padding-bottom: 20px; 
-	color: #ab4493;
+.warnings{ /*estilo de advertencias, el mensaje aparece luego del submit*/
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-h3{
-	font-size: 16px; 
-	padding-bottom: 30px;
-	color: #0e0e0e;   
-}
-
-
-p{
-	font-size: 14px; 
-	color: #0e0e0e; 
-}
-
-
-
-footer{
+footer{ /*estilo del pie de pagina*/
     text-align: center;
     color: beige;
     padding-top: 15px;
